@@ -9,7 +9,7 @@ void upStairs(int);
 void downStairs(int);
 void tower(int);
 
-
+//1
 int main(void)
 {
 
