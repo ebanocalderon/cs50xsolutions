@@ -1,6 +1,6 @@
 // This code shows the highest value of 2 strings based on a array of values assigned to all the alphabet letters
 #include <ctype.h>
-#include <cs50.h>
+#include "cs50.h"
 #include <stdio.h>
 #include <string.h>
 
