@@ -13,12 +13,14 @@ int main(int argc, string argv[])
     if (argc != 2)
     {
         printf("Usage: ./caesar key \n");
+        return 1;
 
     }
     //Check if key is alphanumeric not valid - we need an integer
     else if (checkKey(argv[1]))
     {
         printf("Usage: ./caesar key \n");
+        return 1;
     }
     //Cipher
     else
@@ -29,6 +31,7 @@ int main(int argc, string argv[])
         string userInput = getUserInput();
         //Execute the cipher 
         cipher(userInput, key);
+        return 0;
     }
 }
 //Function to check if the key is alphanumeric
